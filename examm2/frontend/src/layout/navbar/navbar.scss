@@ -1,0 +1,92 @@
+header{
+   
+    .navbar{
+        position: absolute;
+        width: 100%;
+        height: 100px;
+        border: 1px solid black;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;    
+        top: 0;
+        .right{
+          display: flex;
+          border: 1px solid black ;
+          border-color: #FFFFFF;
+          width: 200px;
+          height: 100px;
+          justify-content: center;
+          align-items: center;
+h3{
+    color: 
+    #FFFFFF;
+    font-size: 36px;
+}
+h1{
+    color: orange;
+}
+.point{
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    background-color: orange;
+    align-items: center;
+    justify-content: center;
+}
+            .point{
+                margin-top: 30px;
+                width: 10px;
+                height: 10px;
+                border: 1px solid black;
+                background-color: orange;
+            }
+           
+        }
+        .center{
+         width: 100%;
+          border: 1px solid black ;
+          border-color: #FFFFFF;
+          height: 100px;
+          justify-content: center;
+          align-items: center;
+            display: flex;
+            ul{
+                display: flex;
+                list-style: none;
+                gap: 30px;
+                li{
+                    
+                    .link{
+                        font-family: 'Geologica', sans-serif;
+                       text-decoration: none;
+                       font-weight: 400;
+                       font-size: 16px;
+                       color: #FFFFFF
+                    }
+                }
+            };
+        }
+
+        .left{
+            width: 400px;
+            display: flex;
+            border: 1px solid black ;
+            border-color: #FFFFFF;
+            height: 100px;
+            justify-content: center;
+            align-items: center;
+            color: #FFFFFF;
+            font-weight: 400;
+            font-size: 16px;
+            gap: 10px;
+            font-family: 'Geologica', sans-serif;
+            #reserv{
+                color: orange;
+            }
+            .phone{
+            
+            }
+        }
+    }
+    
+}
