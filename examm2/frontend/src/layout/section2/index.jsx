@@ -9,12 +9,12 @@ function Section2() {
   return (
     <>
     <section  className='section2'>
-        <img src={image3} alt="" style={{width:"100%"}} />
+        {/* <img src={image3} alt="" style={{width:"100%"}} /> */}
         <div className="container">
         <div className='testimonials'>
             <div className='iceCream' style={{display:"flex",alignItems:"center",
         justifyContent:"center"}}>
-            <FontAwesomeIcon icon={faIceCream} style={{fontSize:"100px"}}/>
+            <FontAwesomeIcon icon={faIceCream} style={{fontSize:"100px",color:"white"}}/>
             </div>
         <div className="textss">
         <div id='line1'></div>

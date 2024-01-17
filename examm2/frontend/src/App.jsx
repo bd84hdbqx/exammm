@@ -7,6 +7,9 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import {routers} from "../src/routs/rout"
+import { store } from '../src/redux/store/store'
+import { Provider } from 'react-redux'
+
 
 const router = createBrowserRouter(routers)
 
@@ -15,7 +18,8 @@ function App() {
 
   return (
     <>
-     <RouterProvider router={router} />
+    <Provider store={store}><RouterProvider router={router} /></Provider>
+     
     </>
   )
 }

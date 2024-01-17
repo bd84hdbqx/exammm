@@ -1,9 +1,13 @@
 .section2{
+border: 1px solid black;
     width: 100%;
-    background-image: url(https://preview.colorlib.com/theme/pulse/img/slider/slider-1.jpg.webp);
+    height: 800px;
+    background-image: url(https://preview.colorlib.com/theme/pulse/img/review-bg.jpg.webp);
+    background-size: cover;
     .testimonials{
         margin-top: 180px;
         width: 100%;
+    
       
      
 font-size: 40px;
@@ -11,6 +15,7 @@ font-size: 40px;
 display: flex;
 justify-content: center;
 align-items: center;
+color: white;
 }
 #line1{
 width: 100px;

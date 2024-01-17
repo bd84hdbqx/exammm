@@ -1,0 +1,32 @@
+.card{
+    width: 500px;
+    border: 1px solid white;
+    height: 150px;
+    margin-top: 100px;
+    .cardName{
+margin-top: 40px;
+    color: white;
+    font-size: 30px;
+
+    }
+    .cardDetail{
+        gap: 10px;
+        margin-top: 10px;
+        font-size: 20px;
+        color: 
+        #7E7E7E;
+        font-style: italic;
+        display: flex;
+    }
+    .cardS{
+        font-size: 20px;
+        color: 
+        #7E7E7E;
+        font-style: italic;
+    }
+    .cardP{
+        color: white;
+    font-size: 30px;
+
+    }
+}
